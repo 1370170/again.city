@@ -1,0 +1,28 @@
+/*app.wxss*/
+page {
+  background: #f6f6f6;
+  --td-brand-color: white; 
+  --td-button-primary-color: black;
+  --td-button-border-radius: 0;
+  --td-button-font-weight: normal;
+  --td-button-primary-active-bg-color: #fafafa;
+  --td-button-primary-active-border-color: #f6f6f6;
+  /* demo */
+  padding-bottom: 56rpx;
+  /* demo-example */
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+/*demo-block.component/index.wxss*/
+.demo-block {
+  margin: var(--td-spacer-4, 32rpx) 0 0;
+}
+.demo-block__slot.with-padding {
+  margin: var(--td-spacer-2, 32rpx) var(--td-spacer-2, 32rpx) 0;
+}
+/*input.wxss*/
+.t-input {
+  /* margin-bottom: 32rpx; */
+  margin: 0;
+  background: white;
+}

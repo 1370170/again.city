@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "双向表白墙",
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "navigationBarTextStyle":"black",
+  "component": true,
+  "usingComponents": {
+    "t-input": "tdesign-miniprogram/input/input",
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-fab": "tdesign-miniprogram/fab/fab",
+    "t-popup": "tdesign-miniprogram/popup/popup",
+    "t-image": "tdesign-miniprogram/image/image",
+    "t-message": "tdesign-miniprogram/message/message"
+  }
+}

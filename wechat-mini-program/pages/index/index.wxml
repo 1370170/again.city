@@ -1,0 +1,16 @@
+<view class='demo-block'>
+  <t-input label="在" placeholder="哪一年" bind:change='handleInput' data-key='year' value="{{year}}" disabled="{{readOnly}}"/> <!--a clunky two-way data-ui bind-->
+  <t-input label="的" placeholder="哪个城市" bind:change='handleInput' data-key='city' value="{{city}}" disabled="{{readOnly}}"/>
+</view>
+
+<view class='demo-block'>
+  <t-input label="有" placeholder="谁" bind:change='handleInput' data-key='from' value="{{from}}" disabled="{{readOnly}}"/>
+  <t-input label="对" placeholder="谁" bind:change='handleInput' data-key='to' value="{{to}}" disabled="{{readOnly}}"/>
+  <t-input label="说" placeholder="爱我" bind:change='handleInput' data-key='message' value="{{message}}" disabled="{{readOnly}}"/>
+</view>
+
+<view class='demo-block' wx:if="{{!readOnly}}">
+  <t-button size="large" block theme='primary' bind:tap='handleQuery'>寄存</t-button>
+</view>
+
+<t-message id="t-message" />

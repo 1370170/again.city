@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "crypto-js": "3.3.0",
+    "tdesign-miniprogram": "^1.1.9"
+  }
+}
